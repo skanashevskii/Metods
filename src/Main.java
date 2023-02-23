@@ -64,13 +64,18 @@ public class Main {
 
         return days;
     }
+    public static void printDays(int days){
+        System.out.println("На доставку потребуется дней: " + days);
+
+    }
 
     public static void task3() {
         System.out.println("Задача 3");
         // Пишем код для задачи 3
        int deliveryDistance = 95;
        int days = deliver(deliveryDistance);
-       System.out.println("На доставку потребуется дней: " +days);
+       printDays(days);
+
 
     }
 }
